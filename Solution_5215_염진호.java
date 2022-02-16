@@ -8,7 +8,6 @@ public class Solution_5215_염진호 {
 	static int L;
 	static int maxScore;
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int tc=Integer.parseInt(sc.next());
 		for(int i=0;i<tc;i++) {
@@ -26,6 +25,7 @@ public class Solution_5215_염진호 {
 			selectMenu(0,0,0);
 			System.out.printf("#%d %d\n",i+1,maxScore);
 		}
+		sc.close();
 	}
 	public static void selectMenu(int index,int sumS,int sumC) {
 		if(sumC>L ) {
