@@ -6,7 +6,6 @@ import java.util.Arrays;
 public class Solution_2309_염진호 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int[] arr= new int[9];
 		for(int i =0; i<9;i++) {
