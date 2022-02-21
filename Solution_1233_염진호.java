@@ -5,6 +5,7 @@ import java.util.StringTokenizer;
 
 public class Solution_1233_염진호 {
 	static String[] arr;
+	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
