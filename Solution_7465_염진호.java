@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-class Solution{
+class Solution_7465_염진호{
   static int N,M;
   static int[] parents;
   static boolean[] chk;
